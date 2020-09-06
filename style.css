@@ -223,29 +223,7 @@ h1 {
 }
 /**************** FIRST BLOC
                  ***************************/
-.first-bloc{
-	width: 80%;
-	display: flex;
-	flex-direction: column;
-	margin: 3rem auto;
-}
-.first-bloc-text {
-	width: 100%;
-	margin-top: 2rem;
-	text-align: center;
-	border : solid pink 2px;
-}
-.first-bloc-image {
-	width: 100%;
-}
-#computer-image {  
-   max-width: 20rem;
-   margin :auto;
-}
-.first-bloc h3 , .first-bloc p {
-   margin : 1rem auto;
-   width: 70%;
-}
+
 /**************** SECOND BLOC
                  ***************************/
 .second-bloc {	
@@ -326,11 +304,34 @@ h1 {
 }
 
 
+@media only screen and (max-width: 1100px) {
 
-
-
-
-
+.first-bloc{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 3rem auto;
+}
+.first-bloc-text {
+	width: 100%;
+	margin-top: 2rem;
+	text-align: center;
+}
+.first-bloc-image {
+	width: 100%;
+	text-align: center;
+}
+#computer-image {  
+   max-width: 20rem;
+   margin :auto;
+}
+.first-bloc h3 , .first-bloc p {
+   margin : 1rem auto;
+   width: 70%;
+}
+}
 
 
 
